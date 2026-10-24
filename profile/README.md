@@ -3,8 +3,7 @@
 Rust crates that take the modular ideas inside GDAL (grids, georeferencing,
 chunked reads, warping, virtual datasets), give each one its own small home,
 and build on existing crates (async-tiff, zarrs, Icechunk, rwarp) rather
-than replacing them. Every result is checked against GDAL, and must match
-it exactly.
+than replacing them. Every result is checked against GDAL, with a decision to match it or diverge (and/or contribute back).
 
 **Early and pre-release:** nothing is published yet and APIs will change.
 
